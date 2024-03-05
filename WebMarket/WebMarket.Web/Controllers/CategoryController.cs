@@ -30,6 +30,11 @@ namespace WebMarket.Web.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("custom error", "فیلد نام نمیتواند با فیلد ترتیب نمایش برابر باشد");
+            }
+
             if (ModelState.IsValid)
             {
                 _db.Categories.Add(obj);
