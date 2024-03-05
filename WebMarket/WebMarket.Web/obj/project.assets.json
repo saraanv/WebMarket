@@ -10692,11 +10692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sara\\source\\repos\\WTT\\WebMarket\\WebMarket.Web\\WebMarket.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Sara\\Desktop\\git-wm\\WebMarket\\WebMarket\\WebMarket.Web\\WebMarket.Web.csproj",
       "projectName": "WebMarket.Web",
-      "projectPath": "C:\\Users\\Sara\\source\\repos\\WTT\\WebMarket\\WebMarket.Web\\WebMarket.Web.csproj",
+      "projectPath": "C:\\Users\\Sara\\Desktop\\git-wm\\WebMarket\\WebMarket\\WebMarket.Web\\WebMarket.Web.csproj",
       "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sara\\source\\repos\\WTT\\WebMarket\\WebMarket.Web\\obj\\",
+      "outputPath": "C:\\Users\\Sara\\Desktop\\git-wm\\WebMarket\\WebMarket\\WebMarket.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config",

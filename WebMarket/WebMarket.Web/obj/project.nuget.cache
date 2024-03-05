@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MLa8CaJ9++Jt14w46K9zonuG5KInte43Z5S4dDbbk0xKznkCJcxnoFGdtvZCoVr42dTKQ8wkknJm4ZcVERosaQ==",
+  "dgSpecHash": "XdV3gO1xEVwu8GFYWCCn65qAGIzBrvVZyVNgfjKIHKK5RH+Xx+BjlOGel4RRrs19BhsA+0cvgQoOn2rKto9X7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sara\\source\\repos\\WTT\\WebMarket\\WebMarket.Web\\WebMarket.Web.csproj",
+  "projectFilePath": "C:\\Users\\Sara\\Desktop\\git-wm\\WebMarket\\WebMarket\\WebMarket.Web\\WebMarket.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sara\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Sara\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
