@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\WebMarket.Web",
-    "\\WebMarket.Web\\obj",
+    "\\WebMarket.Web\\Controllers",
     "\\WebMarket.Web\\Properties",
     "\\WebMarket.Web\\Views",
     "\\WebMarket.Web\\Views\\Category",
@@ -11,6 +11,6 @@
     "\\WebMarket.Web\\wwwroot\\lib",
     "\\WebMarket.Web\\wwwroot\\lib\\bootstrap"
   ],
-  "SelectedNode": "\\WebMarket.Web\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\WebMarket.sln",
   "PreviewInSolutionExplorer": false
 }
