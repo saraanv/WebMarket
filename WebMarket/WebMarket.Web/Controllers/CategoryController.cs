@@ -32,7 +32,7 @@ namespace WebMarket.Web.Controllers
         {
             if (obj.Name == obj.DisplayOrder.ToString())
             {
-                ModelState.AddModelError("custom error", "فیلد نام نمیتواند با فیلد ترتیب نمایش برابر باشد");
+                ModelState.AddModelError("Name", "فیلد نام نمیتواند با فیلد ترتیب نمایش برابر باشد");
             }
 
             if (ModelState.IsValid)

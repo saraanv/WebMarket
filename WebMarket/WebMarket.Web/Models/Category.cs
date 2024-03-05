@@ -1,10 +1,20 @@
-﻿namespace WebMarket.Web.Models
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
+namespace WebMarket.Web.Models
 {
     public class Category
     {
 
         public int Id { get; set; }
+
+        [Required (ErrorMessage="عنوان دسته اجباریست") ]
+        [DisplayName("عنوان دسته")]
         public string Name { get; set; }
+
+        [Required(ErrorMessage = "ترتیب نمایش اجباریست")]
+        [DisplayName("ترتیب نمایش ")]
+       [ Range(1,100 , ErrorMessage ="ترتیب نمایش باید بین 1 تا 100 باشد")]
         public int DisplayOrder { get; set; }
         public DateTime CreateDateTime { get; set; } = DateTime.Now;
     }
