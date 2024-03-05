@@ -11,6 +11,6 @@
     "\\WebMarket.Web\\wwwroot\\lib",
     "\\WebMarket.Web\\wwwroot\\lib\\bootstrap"
   ],
-  "SelectedNode": "\\WebMarket.sln",
+  "SelectedNode": "\\WebMarket.Web\\Controllers\\CategoryController.cs",
   "PreviewInSolutionExplorer": false
 }
