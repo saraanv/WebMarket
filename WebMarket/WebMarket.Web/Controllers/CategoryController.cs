@@ -43,5 +43,24 @@ namespace WebMarket.Web.Controllers
             }
             return View();
         }
+
+
+        //Get
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id == 0) 
+            {
+            return NotFound();
+            }
+
+            var categoryFromDb = _db.Categories.Find(id);
+
+            if (categoryFromDb == null)
+            {
+                return NotFound();
+            }
+               
+            return View(categoryFromDb);
+        }
     }
 }

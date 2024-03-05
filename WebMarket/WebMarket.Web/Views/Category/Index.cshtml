@@ -26,6 +26,9 @@
             <th>
                 ترتیب نمایش
             </th>
+            <th>
+
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -37,6 +40,13 @@
                 </td>
                 <td width="30%">
                     @obj.DisplayOrder
+                </td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Category" asp-action="edit" asp-route-id="@obj.Id">
+                            ویرایش <i class="bi bi-pencil-square"></i>
+                        </a>
+                    </div>
                 </td>
             </tr>
         }

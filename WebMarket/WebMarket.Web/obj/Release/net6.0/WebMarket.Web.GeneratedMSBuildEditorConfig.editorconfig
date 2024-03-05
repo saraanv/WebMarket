@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Sara\Desktop\git-wm\WebMarket\WebMarket\WebMarket.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Sara/Desktop/git-wm/WebMarket/WebMarket/WebMarket.Web/Views/Category/Create - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlIC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sara/Desktop/git-wm/WebMarket/WebMarket/WebMarket.Web/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
