@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebMarket.Web",
+    "\\WebMarket.Web\\Controllers",
+    "\\WebMarket.Web\\Models",
+    "\\WebMarket.Web\\obj",
+    "\\WebMarket.Web\\Properties",
+    "\\WebMarket.Web\\Views",
+    "\\WebMarket.Web\\wwwroot",
+    "\\WebMarket.Web\\wwwroot\\lib",
+    "\\WebMarket.Web\\wwwroot\\lib\\bootstrap"
+  ],
+  "SelectedNode": "\\WebMarket.Web\\Controllers\\CategoryController.cs",
+  "PreviewInSolutionExplorer": false
+}
