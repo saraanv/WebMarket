@@ -11,6 +11,6 @@
     "\\WebMarket.Web\\wwwroot\\lib",
     "\\WebMarket.Web\\wwwroot\\lib\\bootstrap"
   ],
-  "SelectedNode": "\\WebMarket.Web\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\WebMarket.Web\\Views\\Category\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

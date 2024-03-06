@@ -62,5 +62,22 @@ namespace WebMarket.Web.Controllers
                
             return View(categoryFromDb);
         }
+        //Post
+        [HttpPost]
+        public IActionResult Edit(Category obj)
+        {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("Name", "فیلد نام نمیتواند با فیلد ترتیب نمایش برابر باشد");
+            }
+
+            if (ModelState.IsValid)
+            {
+                _db.Categories.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
     }
 }
