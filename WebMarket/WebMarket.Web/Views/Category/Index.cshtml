@@ -46,6 +46,9 @@
                         <a asp-controller="Category" asp-action="edit" asp-route-id="@obj.Id">
                             ویرایش <i class="bi bi-pencil-square"></i>
                         </a>
+                            <a asp-controller="Category" asp-action="delete" asp-route-id="@obj.Id">
+                                حذف <i class="bi bi-trash3"></i>
+                            </a>
                     </div>
                 </td>
             </tr>
