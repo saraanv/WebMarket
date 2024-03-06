@@ -39,6 +39,7 @@ namespace WebMarket.Web.Controllers
             {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "دسته با موفقیت افزوده شد";
                 return RedirectToAction("Index");
             }
             return View();
@@ -75,6 +76,7 @@ namespace WebMarket.Web.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "دسته با موفقیت ویرایش شد";
                 return RedirectToAction("Index");
             }
             return View();
@@ -104,7 +106,8 @@ namespace WebMarket.Web.Controllers
                 var obj = _db.Categories.Find(id);
                 _db.Categories.Remove(obj);
                 _db.SaveChanges();
-                return RedirectToAction("Index");
+            TempData["success"] = "دسته با موفقیت حذف شد";
+            return RedirectToAction("Index");
            
         }
     }
